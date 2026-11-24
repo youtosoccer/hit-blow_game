@@ -1,0 +1,11 @@
+# classファイル
+*.class
+
+# 出力ファイル
+out/
+
+# VScodeの設定ファイル
+.vscode/
+
+# Macの不要なフォルダ
+.DS_Store
