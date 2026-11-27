@@ -3,10 +3,10 @@ package method;
 import java.util.Scanner;
 
 public class Innum {
-    public String innum(String name){
+    public String innum(int i,String name){
         String num;
         while(true){
-            IO.print("プレイヤー【" + name + "】のターン(整数３桁)：");
+            IO.print("プレイヤー" + i + "【" + name + "】 のターン(整数３桁)：");
             Scanner innum = new Scanner(System.in);
             num = innum.next();
 

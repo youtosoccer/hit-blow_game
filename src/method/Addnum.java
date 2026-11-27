@@ -9,7 +9,7 @@ public class Addnum{
             addnum[i] = new java.util.Random().nextInt(10);
             for(int j=0;j<i;j++){                               //数字の重複防止チェック
                 if(addnum[j] == addnum[i]){
-                    j--;
+                    i--;
                     break;
                 }
             }
